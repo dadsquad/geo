@@ -1,0 +1,267 @@
+
+Skip to content
+This repository
+
+    Pull requests
+    Issues
+    Marketplace
+    Gist
+
+    @dadsquad
+
+0
+0
+
+    0
+
+Moeez-Muhammad/geo-website
+Code
+Issues 0
+Pull requests 0
+Projects 0
+Wiki
+
+make repo
+
+    gh-pages 
+
+0 parents commit a63ad6222eca3876f3b77b23b9be7578a869e7b9 @Moeez-Muhammad Moeez-Muhammad committed 10 days ago
+Showing
+with 217 additions and 0 deletions.
+BIN favicon.ico
+Binary file not shown.
+59 index.html
+@@ -0,0 +1,59 @@
++<!DOCTYPE html>
++<html>
++  <head>
++    <meta charset="UTF-8">
++    <title>Geography Inquiry Project</title>
++    <meta name="author" content="Moeez">
++    <meta name="description" content="My Inquiry Project">
++    <meta name="keywords" content="keywords,here">
++    <link rel="shortcut icon" href="favicon.ico">
++    <link rel='stylesheet' href='style.css' type='text/css'>
++    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300|Montserrat" rel="stylesheet">
++  </head>
++  <body>
++    <div id="banner">
++      <div id="banner-content">
++        <table>
++          <tr>
++            <td class="far-left">hi</td>
++            <td>hello</td>
++            <td>yo</td>
++            <td class="far-right">what's up</td>
++          </tr>
++        </table>
++      </div>
++    </div>
++    <div id="title">  
++        <h1 id="title-text">T.R.E.P.</h1>
++        <hr id="under-title">
++        <p id="subtitle">The Renewable Energy Project</p>
++    </div>
++    <br>
++    <br>
++    <br>
++    <br>
++    <div id="mission">
++        <h1 id="mission-title">Our Mission</h1>
++        <br>
++        <p class="mission-body">Stopping climate change is a big part of our day and age. Most governments that come to power usually have some talk of carbon taxes, subsidizing renewable energy and other ways to prevent climate change in their campaign promises. But, once they do come to power, most of those promises go out the window. That's why we started the Renewable Energy Project, an organization dedicated to making clean energy a reality.</p>
++    </div>
++    <br>
++    <div id="explanation">
++        <h1 id="explanation-title">Our First Project</h1>
++        <br>
++        <p class="explanation-body">We want to inform people on renewable energy. That's why for our first project, we investigated a question that intrigued us and that we thought would be beneficial for people to know about. The question we investigated was: </p>
++    </div>
++    <br>
++    <h1 id="question">Why isn't renewewable energy implemented widely despite it being generally accepted by the public?</h1>
++    <br>
++    <div id="journey">
++        <h1 id="journey-title">Come Join Us for the Journey</h1>
++        <br>
++        <p id="journey-body">We divided our findings into multiple different articles. Come join us on the journey. Click the button below to be taken to the main page. </p>
++        <br>
++        <a href="/main_page/index.html" id="journey-button">Go to Main Page</a>
++        <br>    
++        <br>
++    </div>
++  </body>
++</html>
+158 style.css
+@@ -0,0 +1,158 @@
++* {
++    margin: 0; 
++    padding: 0;
++    }
++html {
++    font-size: 100;
++    font-family: Roboto;
++    font-weight: 100;
++}
++hr {
++    width: 50%;
++    text-align: center;
++    margin-left: 25%;
++}
++#banner { 
++    position: absolute; 
++    top: 0; 
++    left: 0; 
++    background-color: #218cce; 
++    width: 100%; 
++    position: relative;
++}
++#banner-content { 
++    position: relative;
++    width: 800px; 
++    margin: auto; 
++    padding: 10px; 
++    color: #ffffff;
++    text-align: center;
++    font-size: 1rem;
++    font-weight: normal;
++}
++table {
++    border-spacing: 100px 0px;
++}
++table, tr, td {
++    margin: 0 auto;
++    text-align: center;
++}
++td {
++    text-align: center;
++    padding-right: 15px;
++}
++.far-left {
++    padding-left: 0px;
++}
++.far-right {
++    padding-right: 0px;
++}
++#main-content { 
++    padding-top: 70px;
++}
++div#title {
++    text-align: center;
++    font-weight: 100;
++    font-size: 10em;
++    position: relative;
++}
++h1#title-text {
++    font-weight: 100;
++}
++hr#under-title {
++    border-color: blue;
++}
++p#subtitle {
++    font-size: 0.5em;
++}
++div#mission {
++    border: 1px solid lightgrey;
++    margin-right: 1em;
++    margin-left: 1em;
++    text-align: center;
++    line-height: 1.6em;
++    margin-bottom: 2em;
++    box-shadow: 5px 5px 10px #888888;
++}
++h1#mission-title {
++    line-height: 1.6em;
++    font-size: 2em;
++    margin: 0px 4%;
++}
++p.mission-body {
++    line-height: 1.6em;
++    font-weight: normal;
++    font-size: 1.3em;
++    margin: 0px 10%;
++}
++div#explanation {
++    border: 1px solid lightgrey;
++    margin-right: 1em;
++    margin-left: 1em;
++    text-align: center;
++    line-height: 1.6em;
++    margin-top: 2em;
++    margin-bottom: 2em;
++    box-shadow: 5px 5px 10px #888888;
++}
++h1#explanation-title {
++    line-height: 1.6em;
++    font-size: 2em;
++    margin: 0px 4%;
++}
++p.explanation-body {
++    line-height: 1.6em;
++    font-weight: normal;
++    font-size: 1.3em;
++    margin: 0px 10%;
++}
++hr.section-divider {
++    width: 40%;
++    margin-left: 30%;
++    border-color: #5dbff7;
++}
++h1#question {
++    text-align: center;
++    font-weight: normal;
++    line-height: 1.6em;
++    font-size: 3em;
++    margin: 0px 4%;
++}
++div#journey {
++    border: 1px solid lightgrey;
++    margin-right: 1em;
++    margin-left: 1em;
++    text-align: center;
++    line-height: 1.6em;
++    margin-top: 2em;
++    margin-bottom: 2em;
++    box-shadow: 5px 5px 10px #888888;
++}
++h1#journey-title {
++    line-height: 1.6em;
++    font-size: 2em;
++    margin: 0px 4%;
++}
++p#journey-body {
++    line-height: 1.6em;
++    font-weight: normal;
++    font-size: 1.3em;
++    margin: 0px 10%;
++}
++#journey-button {
++    background-color: #4CAF50; /* Green */
++    border: none;
++    color: white;
++    padding: 15px 32px;
++    text-align: center;
++    text-decoration: none;
++    display: inline-block;
++    font-size: 16px;
++    background-color: white;
++    color: black;
++    border: 2px solid #4CAF50; /* Green */
++    transition-duration: 0.6s;
++}
++#journey-button:hover {
++    box-shadow: 0 7px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);    
++}
+0 comments on commit a63ad62
+@dadsquad
+
+Attach files by dragging & dropping,
+
+, or pasting from the clipboard.
+Styling with Markdown is supported
+
+You’re not receiving notifications from this thread.
+
+    Contact GitHub API Training Shop Blog About 
+
+    © 2017 GitHub, Inc. Terms Privacy Security Status Help 
+
